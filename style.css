@@ -1,4 +1,7 @@
 body {
+	display: grid;
+    /*grid-template-rows: repeat(auto-fill, minmax(500px, 2fr));*/
+     grid-template-rows: min-content;
 	font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
